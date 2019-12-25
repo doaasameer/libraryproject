@@ -1,0 +1,23 @@
+js example 
+ <script >
+  function validateForm() {
+    var x = document.forms["myForm"]["username"].value;
+	 var y = document.forms["myForm"]["password"].value;
+	
+    if (x == "" ) {
+        alert("Name must be filled out");
+        return false;
+    }
+	else if (x=="doaa10" && y=="doaa10"){
+		 alert("vailed");
+        return true;
+	}
+	else{
+		 alert("invailed");
+        return false;
+	}
+}
+</script>
+****************************
+<form action="lesson1.html"  name="myForm" onsubmit="return validateForm()" method="post">
+ 

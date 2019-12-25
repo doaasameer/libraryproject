@@ -1,0 +1,121 @@
+@media only screen and (min-width: 1300px)
+html, body {
+    font-size: 16px;
+}
+.navbar-brand{
+    padding-left: 0px;
+    font-family: 'Oleo Script', cursive;
+}
+.navbar-brand span {
+    color: #85d8db;
+    font-size: 20px;
+}
+.navbar {
+    padding-top: 10px;
+    background-color: #fff;
+    margin-bottom: 0;
+    border-radius: 0;
+/*    height: 70px;*/
+}
+body {
+    background-color: #f6f5f4;
+}
+.fa-facebook-square {
+    color: #3B5998;
+}
+.fa-twitter-square {
+    color: #1da1f2;
+}
+.fa-youtube-square {   
+    color: #CC181E;    
+}
+.fa-instagram {
+    color: #517FA6;    
+}
+.carousel .carousel-caption {
+    background: rgba(0, 0, 0, .6);
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.carousel .item img {
+    width: 2000px;
+    height: 500px;
+}
+.list-inline {
+    padding-top: 10px;
+}
+
+.Books-Subjects {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 30px;
+}
+.Books-Subjects .item a {
+    font-family: 'Prociono', serif;
+    font-size: 20px;
+    color:#2f5d6d;
+    display: block;
+    padding-top: 15px;
+    
+}
+.Books-Subjects a:hover {
+    color: #87bade;
+    text-decoration: none;
+}
+.Books-Subjects .item img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.panel-default {
+    margin-top: 20px;
+    padding: 15px;
+ }
+.new-books .item {
+    padding-bottom: 20px;
+   
+}
+.new-books .adv {
+/*    background-color: #f6f5f4;*/
+    margin-top :80px;
+   height: 820px;
+}
+.new-books .adv img {
+    height: 450px;
+    width: 100%;
+}
+
+.new-books .item img {
+  width: 200px;
+  height: 300px; 
+  border:1px solid #021a40;
+}
+footer {
+    background-color:rgb(81, 81, 81);
+    margin-top: 50px;
+    color: #fff;
+    padding-top: 40px;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    color: #0093ff;
+    text-decoration: none;
+}
+footer .bottom-footer {
+    padding: 5px;
+}
+
+footer .bottom-footer p {
+    margin: 0;
+}
+.subscribe  .button {
+    background-color: #66b2b5;
+}
